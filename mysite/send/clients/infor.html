@@ -1,0 +1,18 @@
+<thead>
+        <div class="navbar">
+          <a class="active" href="{% url "client_list" %}"><h2>Home</h2></a>
+          <a href="{% url "login" %}"><h2>Logout<h2></a>
+        </div>
+      </thead>
+      
+      <style>
+        body {
+          background-color: #fab394;
+        }
+      </style>
+      
+      <h1>clientDetails</h1>
+      <h2>Nom: {{object.nif}}</h2>
+      <h2>Oficina: {{object.Fname}}</h2>
+      <h2>Correu: {{object.Lname}}</h2>
+      <h2>Missatge: {{object.address}}</h2>

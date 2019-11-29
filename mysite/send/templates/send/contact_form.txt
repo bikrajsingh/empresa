@@ -1,0 +1,11 @@
+Nom: 
+{{ Nom }}
+
+oficina:
+{{ oficina }}
+
+correu:
+{{ correu }}
+
+missatge:
+{{ missatge }}
